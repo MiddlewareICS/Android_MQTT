@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/a"
+    android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/TextView01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/sensor_info" />
+
+<TextView 
+        android:id="@+id/TextView02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/x_info"
+        />
+<TextView 
+        android:id="@+id/TextView03"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/y_info"
+        />
+<TextView 
+        android:id="@+id/TextView04"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/z_info"
+        />
+<TextView 
+        android:id="@+id/TextView05"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a_info"
+        />
+<TextView 
+        android:id="@+id/TextView06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/angle_info"
+        />
+
+<RelativeLayout    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<Button
+    android:id="@+id/button_write"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:text="@string/write" />
+
+<Button
+    android:id="@+id/button_stop"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:text="@string/stop" />
+</RelativeLayout>
+
+<RelativeLayout    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<Button
+    android:id="@+id/start_step"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:text="@string/stepstart" />
+
+<Button
+    android:id="@+id/stop_step"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:text="@string/stepstop" />
+</RelativeLayout>
+
+<RelativeLayout    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<TextView 
+        android:id="@+id/TextView07"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step_info"
+        android:gravity="center_horizontal"
+        android:textSize="65px"
+        />
+</RelativeLayout>
+
+</LinearLayout>
